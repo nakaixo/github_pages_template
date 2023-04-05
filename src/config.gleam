@@ -16,7 +16,10 @@ pub fn metadata() {
       content: "Template for deploying a Nakai app on Github Pages",
     ),
     head.meta(name: "og:type", content: "website"),
-    head.meta(name: "og:url", content: "https://nakaixo.github.io/github_pages_template/"),
+    head.meta(
+      name: "og:url",
+      content: "https://nakaixo.github.io/github_pages_template/",
+    ),
     head.meta(
       name: "og:image",
       content: "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/Nakai-Banner@2x.webp",
