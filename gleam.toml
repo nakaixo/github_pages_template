@@ -1,0 +1,14 @@
+name = "github_pages_template"
+version = "1.0.0"
+licences = ["MIT"]
+description = "Template for deploying a Nakai app on Github Pages"
+repository = { type = "github", user = "nakaixo", repo = "github_pages_template" }
+
+[dependencies]
+gleam_community_ansi = "~> 1.1"
+gleam_erlang = "~> 0.18"
+gleam_stdlib = "~> 0.28"
+nakai = "~> 0.4"
+
+[dev-dependencies]
+gleeunit = "~> 0.10"
