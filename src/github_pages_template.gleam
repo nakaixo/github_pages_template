@@ -22,7 +22,7 @@ pub fn make_page(route: String) {
     "index.html" -> index.page()
     _ -> not_found.page()
   }
-  |> nakai.render()
+  |> nakai.to_string()
   |> file.write("output/" <> route)
 }
 
