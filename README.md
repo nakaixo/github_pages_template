@@ -5,3 +5,9 @@ Template for deploying a Nakai app on Github Pages
 ## Quick start
 
 Clone this repo :^)
+
+## Running locally
+
+```sh
+gleam run
+```

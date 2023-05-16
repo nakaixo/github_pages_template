@@ -8,7 +8,7 @@ repository = { type = "github", user = "nakaixo", repo = "github_pages_template"
 gleam_community_ansi = "~> 1.1"
 gleam_erlang = "~> 0.18"
 gleam_stdlib = "~> 0.28"
-nakai = "~> 0.6"
+nakai = "~> 0.7"
 
 [dev-dependencies]
 gleeunit = "~> 0.10"
