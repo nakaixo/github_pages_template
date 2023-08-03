@@ -7,8 +7,8 @@ import pages/not_found
 
 pub fn ensure_directory(path: String) {
   case file.is_directory(path) {
-    True -> Ok(Nil)
-    False -> file.make_directory(path)
+    Ok(True) -> Ok(Nil)
+    _ -> file.make_directory(path)
   }
 }
 
