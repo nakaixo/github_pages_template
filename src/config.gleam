@@ -3,7 +3,7 @@ import nakai/html
 import nakai/html/attrs
 
 pub const header_style = "
-  font-family: 'Outfit', serif;
+  font-family: \"Outfit\", serif;
 "
 
 pub fn metadata() {
