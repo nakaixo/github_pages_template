@@ -1,18 +1,13 @@
 import gleam/io
 import gleam_community/ansi
-import simplifile as file
 import nakai
 import pages/index
 import pages/not_found
+import simplifile as file
 
 pub fn make_page(route: String) {
   io.println(
-    ansi.green("==>")
-    <> " "
-    <> ansi.bold("page")
-    <> " "
-    <> "//"
-    <> route,
+    ansi.green("==>") <> " " <> ansi.bold("page") <> " " <> "//" <> route,
   )
 
   case route {
